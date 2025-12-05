@@ -1,0 +1,146 @@
+:root {
+  --main-color: #000;
+  --base-font-size: 16px;
+  --base-font-weight: 400;
+
+  --iris-color: #4d5ae5;
+  --ocean-color: #404bbf;
+  --navyBlue-color: #2e2f42;
+  --green-color: #31d0aa;
+  --slate-color: #434455;
+  --lightSlate-color: #8e8f99;
+  --cornFlower-color: E7E9FC;
+  --cloud-color: #e7e9fc;
+  --navyBlue-color: #2e2f42;
+  --grey-color: #2e2f42;
+  --dairy-color: #fcfcfc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: var(--base-font-size);
+  font-weight: var(--base-font-weight);
+  color: var(--main-color);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: var(--navyBlue-color);
+}
+h2 {
+  color: var(--navyBlue-color);
+  font-weight: bold;
+  line-height: 1.111;
+  letter-spacing: 0.72px;
+}
+h3 {
+  color: var(--navyBlue-color);
+  line-height: 1.222;
+  letter-spacing: 0.4px;
+}
+p {
+  color: var(--slate-color);
+  /**line-height: 1.5px;
+    letter-spacing: 0.32px;**/
+}
+ul {
+  list-style: none;
+}
+.logo-web-text {
+  color: var(--iris-color);
+  line-height: 1.333px;
+  letter-spacing: 0.54px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+.logo-studio-text {
+  color: var(--navyBlue-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.333px;
+  letter-spacing: 0.54px;
+}
+
+header nav ul li {
+  font-weight: 500;
+}
+a:hover {
+  color: var(--ocean-color);
+}
+
+header address ul li a {
+  color: var(--slate-color);
+}
+
+#banner {
+  background: var(--navyBlue-color);
+  color: #fff;
+}
+#banner h1 {
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 3.333;
+  letter-spacing: 0.54px;
+}
+#banner button {
+  background: var(--iris-color);
+  border: 0;
+  color: #fff;
+  padding: 16px;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+}
+#banner button:hover {
+  background-color: var(--ocean-color);
+}
+#our-team {
+  background: var(--cloud-color);
+  padding-top: 100px;
+}
+#our-team h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 48px;
+  color: var(--navyBlue-color);
+}
+
+.portfolio-card {
+  width: 360px;
+  height: auto;
+  background: #fff; 
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.portfolio-title {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 48px;
+  color: var(--navyBlue-color);
+}
+footer {
+  color: #fff;
+  background: var(--navyBlue-color);
+}
+footer p {
+  color: #fff;
+}
+.footer-logo-studio-text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.333px;
+  letter-spacing: 0.54px;
+}
