@@ -36,16 +36,21 @@ h2 {
   font-weight: bold;
   line-height: 1.111;
   letter-spacing: 0.72px;
+  font-weight: bold;
 }
 h3 {
   color: var(--navyBlue-color);
   line-height: 1.222;
   letter-spacing: 0.4px;
+  font-weight: 500;
 }
 p {
   color: var(--slate-color);
-  /**line-height: 1.5px;
-    letter-spacing: 0.32px;**/
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5; 
+  letter-spacing: 0.32px;
 }
 ul {
   list-style: none;
@@ -109,17 +114,6 @@ header address ul li a {
   font-weight: bold;
   margin-bottom: 48px;
   color: var(--navyBlue-color);
-}
-
-.portfolio-card {
-  width: 360px;
-  height: auto;
-  background: #fff; 
-  border: 1px solid #e6e6e6;
-  border-radius: 8px;
-  overflow: hidden;
-  transition: 0.3s ease;
-  cursor: pointer;
 }
 
 .portfolio-title {
