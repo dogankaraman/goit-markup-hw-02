@@ -46,8 +46,6 @@ h3 {
 }
 p {
   color: var(--slate-color);
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5; 
   letter-spacing: 0.32px;
